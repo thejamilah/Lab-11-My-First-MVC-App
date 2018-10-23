@@ -1,4 +1,4 @@
-# Lab 08
+# Lab 11
 ## .NET C# Educational Lab Assignment - My First MVC App
 
 ## Intro to MVC & Core 
