@@ -35,6 +35,9 @@ namespace Intro_MVC_Core
                 );
             });
 
+            //to be able to use any static files in wwwroot
+            app.UseStaticFiles();
+
             //app.Run(async (context) =>
             //{
             //    await context.Response.WriteAsync("Hello World!");
