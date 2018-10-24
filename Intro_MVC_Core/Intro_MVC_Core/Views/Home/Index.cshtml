@@ -1,16 +1,35 @@
 ﻿<html>
 <head>
     <link href="~/Stylesheet.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 </head>
 <body>
-    <form method="post">
-        <label for="Year">From Year</label>
-        <input id="year" name="year" />
-    </form>
 
-    <form method="post">
-        <label for="Year">From Year</label>
-        <input id="year" name="year" />
-    </form>
+    <header>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </header>
+
+    <div class="container">
+        <img src="~/TIME.png" alt="Time Cover" class="image-responsive" />
+        <div class="centered">Electronic Time Capsule</div>
+        <div class="centered2">Time's Person of the Year 1927-2016</div>
+    </div>
+
+   
+        <form method="post">
+            <label for="fromYear">From Year</label>
+            <input maxlength="4" placeholder="YYYY" name="fromYear" />
+        
+
+            <label for="toYear">To Year</label>
+            <input maxlength="4" placeholder="YYYY" name="toYear" />
+
+            <button type="submit">Submit</button>
+  
+        @*<form method="post">
+        </form>*@
+
+        </form>
+
 </body>
 </html>

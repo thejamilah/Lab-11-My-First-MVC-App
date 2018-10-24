@@ -8,6 +8,10 @@ namespace Intro_MVC_Core.Models
 {
     public class TimePerson
     {
+        /// <summary>
+        /// Getting and setting data from csv file placed in models different from example of wwwroot
+        /// Models folder holds data
+        /// </summary>
         public int Year { get; set; }
         public string Honor { get; set; }
         public string Name { get; set; }
@@ -18,7 +22,13 @@ namespace Intro_MVC_Core.Models
         public string Category { get; set; }
         public string Context { get; set; }
 
-        public static List<TimePerson> GetPersons(int begYear, int endYear)
+        /// <summary>
+        /// From path of Models/personsOfTheYear 
+        /// </summary>
+        /// <param name="fromYear"></param>
+        /// <param name="toYear"></param>
+        /// <returns></returns>
+        public static List<TimePerson> GetPersons(int fromYear, int toYear)
         {
             List<TimePerson> people = new List<TimePerson>();
             string path = Environment.CurrentDirectory;
@@ -42,7 +52,7 @@ namespace Intro_MVC_Core.Models
                 });
             }
 
-            List<TimePerson> listofPeople = people.Where(p => (p.Year >= begYear) && (p.Year <= endYear)).ToList();
+            List<TimePerson> listofPeople = people.Where(p => (p.Year >= fromYear) && (p.Year <= toYear)).ToList();
             return listofPeople;
 
         }

@@ -1,2 +1,61 @@
-﻿body {
+﻿* {
+    font-family: 'PT Serif', serif;
+}
+body {
+    background-color: whitesmoke;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    margin-top: 3em;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered3 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered4 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+}
+
+.form {
+    margin-left: 50%;
+    margin-top: 1em;
+  }
+
+#form {
+    display: block;
+}
+
+th, td, tr {
+    border: 1em solid black;
+    font-family: 'PT Serif', serif;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
 }
