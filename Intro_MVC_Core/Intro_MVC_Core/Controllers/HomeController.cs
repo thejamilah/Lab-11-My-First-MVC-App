@@ -19,10 +19,10 @@ namespace Intro_MVC_Core.Controllers
         [HttpPost]
         public IActionResult Index(int fromYear, int toYear)
         {
-            return RedirectToAction("Results", new { BeginningYear = fromYear, EndingYear = toYear });
+            return RedirectToAction("Result", new { fromYear, toYear });
         }
 
-        public IActionResult Results(int fromYear, int toYear)
+        public IActionResult Result(int fromYear, int toYear)
         {
             TimePerson TimePerson = new TimePerson();
 
