@@ -24,3 +24,4 @@ We use this methodology/design pattern in programming languages that helps devel
 * Questions and answers output to console
 
 ### Visual
+![mvc 1](https://user-images.githubusercontent.com/39015829/47447783-3b3f1180-d773-11e8-86a7-7334a7910846.jpg)

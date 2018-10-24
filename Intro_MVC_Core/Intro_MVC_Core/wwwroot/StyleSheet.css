@@ -10,6 +10,7 @@ body {
     text-align: center;
     color: black;
     margin-top: 3em;
+    margin-bottom: 2em;
 }
 
 .centered {
@@ -41,13 +42,11 @@ body {
     text-align:center;
 }
 
-.form {
-    margin-left: 50%;
-    margin-top: 1em;
-  }
 
-#form {
-    display: block;
+form {
+    /*display: inline-block;*/
+    margin: 0 auto 0 auto;
+    width: 50%;
 }
 
 th, td, tr {
