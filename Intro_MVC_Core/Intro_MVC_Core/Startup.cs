@@ -27,6 +27,10 @@ namespace Intro_MVC_Core
                 app.UseDeveloperExceptionPage();
             }
 
+            //to be able to use any static files in wwwroot
+            app.UseStaticFiles();
+
+            //route goes directly to home/index; this can be updated based on the design of the web application
             app.UseMvc(route =>
             {
                 route.MapRoute(
@@ -35,9 +39,8 @@ namespace Intro_MVC_Core
                 );
             });
 
-            //to be able to use any static files in wwwroot
-            app.UseStaticFiles();
 
+            //This is the initial kick the tires to see if routes are connected and render to the page
             //app.Run(async (context) =>
             //{
             //    await context.Response.WriteAsync("Hello World!");
