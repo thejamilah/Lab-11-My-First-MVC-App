@@ -1,11 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿@model List<Intro_MVC_Core.Models.TimePerson>
 
-namespace Intro_MVC_Core.Views.Home
-{
-    public class Result
+<link href="~/Stylesheet.css" rel="stylesheet" />
+
+
+@*Table data and table rows circa salmon cookies, don't forget to refernce the model folder for table to render. Helpful to make list from Models/TimePerson to keep track of list data; don't forget item. when you're tire!*@
+<table>
+
+
+    @foreach (var item in Model)
     {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Year</td>
+            <td>@item.Honor</td>
+            <td>@item.Birth_Year</td>
+            <td>@item.DeathYear</td>
+            <td>@item.Country</td>
+            <td>@item.Title</td>
+            <td>@item.Category</td>
+            <td>@item.Context</td>
+        </tr>
     }
-}
+
+</table>

@@ -8,6 +8,10 @@ namespace Intro_MVC_Core.Models
 {
     public class TimePerson
     {
+        /// <summary>
+        /// Getting and setting data from csv file placed in models different from example of wwwroot
+        /// Models folder holds data
+        /// </summary>
         public int Year { get; set; }
         public string Honor { get; set; }
         public string Name { get; set; }
