@@ -3,14 +3,24 @@
     <link href="~/Stylesheet.css" rel="stylesheet" />
 </head>
 <body>
-    <form method="post">
-        <label for="Year">From Year</label>
-        <input id="year" name="year" />
-    </form>
+
+    <header>
+        <h1>Time</h1>
+        <h2>Person of the Year</h2>
+    </header>
+
+    <p1>Electronic Time Capsule.</p1> 
+    <p2>Enter a year range to find out who Time's Person of the Year was from 1927-2016</p2>
 
     <form method="post">
         <label for="Year">From Year</label>
-        <input id="year" name="year" />
+        <input maxlength="4" placeholder="YYYY" name="year" />
+   
+        <label for="Year">To Year</label>
+        <input maxlength="4" placeholder="YYYY" name="year" />
+
+        <button type="submit">Submit</button>
     </form>
+
 </body>
 </html>
