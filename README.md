@@ -1,8 +1,10 @@
-# Lab 11
-## .NET C# Educational Lab Assignment - My First MVC App
+# .NET Core C# Intro to MVC
 
-## Intro to MVC & Core 
-This is an educational assignment that focuses on MVC and Core </br>
+## Learning Objective
+MVC and Core </br>
+* Use LINQ Queries </br>
+* Use Lambda statements </br>
+* Questions and answers output to console </br>
 
 #### MVC & Core
 You can read more about MVC Core below </br>
@@ -15,13 +17,6 @@ https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/start-mvc?v
 #### MVC
 MVC stands for Mode-View-Controller.</br>  
 We use this methodology/design pattern in programming languages that helps developers such as ourselves navigate the interconnected components of Model (data), View (the user interface), and the Controller (processes for handling input).</br>
-
-
-### Assignment Instructions
-* JSON File is provied
-* Use LINQ Queries
-* Use Lambda statements
-* Questions and answers output to console
 
 ### Visual
 ![mvc 1](https://user-images.githubusercontent.com/39015829/47447783-3b3f1180-d773-11e8-86a7-7334a7910846.jpg)
